@@ -1,0 +1,26 @@
+#root {
+  margin: auto;
+  padding: 2rem;
+  text-align: center;
+}
+ 
+#coins {
+  margin: 1rem auto 1rem auto;
+  width: 30%;
+  padding: 1rem;
+  border-radius: 15px;
+  background-color: rgb(235, 217, 119);
+}
+
+#buy {
+  background-color: lightgreen;
+  margin: auto;
+  width: 30%;
+  border-radius: 15px;
+  padding: 1rem;
+}
+
+.topbar {
+  display: flex;
+  flex-direction: row;
+}
