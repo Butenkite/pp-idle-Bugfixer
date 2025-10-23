@@ -14,7 +14,7 @@ function App() {
 
   function handlePurchase() {
     if (count>trophies.at(progress+1).price) {
-      setCount(count-trophies.at(progress+1).price);
+      setCount(count);
       userTrophies.push(trophies.at(progress));
       setProgress((progress) => progress+1);
     }
