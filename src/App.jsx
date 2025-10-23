@@ -10,6 +10,8 @@ function App() {
   const [progress, setProgress] = useState(0);
   const userTrophies = [];
 
+  if (count==200) alert("You win!");
+
   function handlePurchase() {
     if (count>trophies.at(progress+1).price) {
       setCount(count-trophies.at(progress+1).price);
@@ -37,6 +39,11 @@ function App() {
     {
       "name":"Palabok Enjoyer",
       "price": "150",
+      "image":"https://curiousflavors.com/wp-content/uploads/2022/12/Untitled-design-2-1-1.jpg"
+    },
+    {
+      "name":"Palabok King",
+      "price": "200",
       "image":"https://curiousflavors.com/wp-content/uploads/2022/12/Untitled-design-2-1-1.jpg"
     },
   ]
